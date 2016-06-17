@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(resultCode == RESULT_OK && requestCode == 0){
             String result = data.getStringExtra("result");
-            Log.i("zhangwei", "result2: " + result);
+            Log.i("zhangwei", "result222: " + result);
             mTvResult.setText(result);
         }
     }
